@@ -1,0 +1,18 @@
+# Ignore backups and temp files
+*.backup-*
+.DS_Store
+Thumbs.db
+
+# Ignore local previews
+*.pyc
+__pycache__/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore node_modules if used
+node_modules/
+
+# Ignore any generated files
+*.log
