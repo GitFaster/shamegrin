@@ -1,0 +1,64 @@
+{
+  "videos": [
+    {
+      "number": "01",
+      "title": "Outrun the Crash",
+      "tag": "Flagship \u00b7 Official MV",
+      "line": "I don't wanna die \u2014 I just don't wanna feel like this anymore.",
+      "duration": "Watch MV",
+      "youtube_id": "kFdZTkQnRT8",
+      "url": "https://www.youtube.com/watch?v=kFdZTkQnRT8",
+      "thumb": "https://img.youtube.com/vi/kFdZTkQnRT8/maxresdefault.jpg"
+    },
+    {
+      "number": "02",
+      "title": "Don't Feel Like Home",
+      "tag": "Anthem",
+      "line": "When home don't feel like home anymore.",
+      "duration": "Watch",
+      "youtube_id": "XmoOoIbzzZY",
+      "url": "https://www.youtube.com/watch?v=XmoOoIbzzZY",
+      "thumb": "https://img.youtube.com/vi/XmoOoIbzzZY/maxresdefault.jpg"
+    },
+    {
+      "number": "03",
+      "title": "Locked Inside My War",
+      "tag": "Mental health",
+      "line": "How do I live when the war is inside?",
+      "duration": "Watch",
+      "youtube_id": "L37CdIuFGnU",
+      "url": "https://www.youtube.com/watch?v=L37CdIuFGnU",
+      "thumb": "https://img.youtube.com/vi/L37CdIuFGnU/maxresdefault.jpg"
+    },
+    {
+      "number": "04",
+      "title": "Feel The Undertow",
+      "tag": "Cinematic",
+      "line": "Pulled under. Still breathing.",
+      "duration": "Watch",
+      "youtube_id": "v7XcsVL9DZA",
+      "url": "https://www.youtube.com/watch?v=v7XcsVL9DZA",
+      "thumb": "https://img.youtube.com/vi/v7XcsVL9DZA/maxresdefault.jpg"
+    },
+    {
+      "number": "05",
+      "title": "Ashes on the Crown",
+      "tag": "MV",
+      "line": "Rise from the wreckage.",
+      "duration": "Watch",
+      "youtube_id": "xWV1VHnZHlM",
+      "url": "https://www.youtube.com/watch?v=xWV1VHnZHlM",
+      "thumb": "https://img.youtube.com/vi/xWV1VHnZHlM/maxresdefault.jpg"
+    },
+    {
+      "number": "06",
+      "title": "Fall In \u00b7 Silence \u00b7 Money",
+      "tag": "TikTok Shorts",
+      "line": "15s viral clips \u2014 repost edition.",
+      "duration": "15s",
+      "youtube_id": null,
+      "url": "https://www.tiktok.com/@shamegrin",
+      "thumb": "https://img.youtube.com/vi/kFdZTkQnRT8/hqdefault.jpg"
+    }
+  ]
+}

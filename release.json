@@ -1,0 +1,35 @@
+{
+  "title": "SHAMEGRIN",
+  "artist": "Gary Makinson",
+  "year": 2026,
+  "format": "Digital · Single",
+  "catalog": "SG-2026-STUTTER",
+  "imprint": "SHAMEGRIN",
+  "genre": "Dark emo rap",
+  "status": "Out now",
+  "tagline": "Dark emo rap for people who smile while they're breaking.",
+  "subtitle": "No face. Just sound.",
+  "flagship": {
+    "title": "The Stutter Boys and the ShameGrin",
+    "type": "Single",
+    "duration": "3:54",
+    "year": 2026,
+    "spotify_album": "https://open.spotify.com/album/4JH6Lc63yJyMVh0PcC4KFM?si=xzVj02NsR8uJ9Zvh4wjJjQ",
+    "spotify_track": "https://open.spotify.com/track/2oBPAv1iYkRicSpOuAH6w2",
+    "spotify_embed": "https://open.spotify.com/embed/album/4JH6Lc63yJyMVh0PcC4KFM",
+    "cover": "/static/img/stutter-boys-cover.jpg",
+    "cover_cdn": "https://i.scdn.co/image/ab67616d0000b2733025eda6412faf8fab4c2e77"
+  },
+  "site": "https://shamegrin.com",
+  "links": {
+    "spotify_artist": "https://open.spotify.com/artist/5ZkPJN8ThJgiElE20wPhXY",
+    "spotify_album": "https://open.spotify.com/album/4JH6Lc63yJyMVh0PcC4KFM?si=xzVj02NsR8uJ9Zvh4wjJjQ",
+    "soundcloud": "https://soundcloud.com/shamegrin",
+    "youtube": "https://www.youtube.com/@GarySoundCloud",
+    "tiktok": "https://www.tiktok.com/@shamegrin",
+    "instagram": "https://instagram.com/shamegrin",
+    "snapchat": "https://www.snapchat.com/add/shamegrin",
+    "elasticstage": "https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album",
+    "press": "mailto:shamegrin@icloud.com"
+  }
+}

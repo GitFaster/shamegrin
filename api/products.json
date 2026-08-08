@@ -1,0 +1,227 @@
+{
+  "store": {
+    "title": "SHAMEGRIN Store",
+    "tagline": "Wear the sound. Own the cut.",
+    "currency": "CAD",
+    "currency_symbol": "$",
+    "note": "Orders ship from Canada. Digital items are delivered by email. Physical merch ships in 5\u201312 business days.",
+    "email": "shamegrin@icloud.com"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "apparel",
+      "label": "Apparel"
+    },
+    {
+      "id": "music",
+      "label": "Vinyl & Digital"
+    },
+    {
+      "id": "prints",
+      "label": "Prints"
+    },
+    {
+      "id": "bundles",
+      "label": "Bundles"
+    }
+  ],
+  "products": [
+    {
+      "id": "tee-noface-black",
+      "name": "No Face. Just Sound. Tee",
+      "category": "apparel",
+      "type": "tshirt",
+      "price": 38,
+      "compare_at": 48,
+      "badge": "Bestseller",
+      "desc": "Heavyweight black tee. Front mark. Back: No face. Just sound.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "tee-black",
+      "featured": true
+    },
+    {
+      "id": "tee-outrun-wash",
+      "name": "Outrun the Crash Tee",
+      "category": "apparel",
+      "type": "tshirt",
+      "price": 40,
+      "compare_at": null,
+      "badge": "New",
+      "desc": "Acid-wash drop. Flagship lyric print. Soft oversized fit.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Wash Black",
+        "Charcoal"
+      ],
+      "visual": "tee-wash",
+      "featured": true
+    },
+    {
+      "id": "hoodie-sg",
+      "name": "SHAMEGRIN Heavy Hoodie",
+      "category": "apparel",
+      "type": "hoodie",
+      "price": 72,
+      "compare_at": 88,
+      "badge": "Limited",
+      "desc": "Fleece-lined. Embroidered SG mark. Built for 3am drives.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "hoodie",
+      "featured": true
+    },
+    {
+      "id": "vinyl-outrun",
+      "name": "Outrun the Crash \u2014 Vinyl",
+      "category": "music",
+      "type": "vinyl",
+      "price": 34,
+      "compare_at": null,
+      "badge": "Pre-order",
+      "desc": "12\" black vinyl. Printed inner sleeve. Digital download included.",
+      "sizes": [
+        "12\""
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "vinyl",
+      "featured": true
+    },
+    {
+      "id": "vinyl-shamegrin-lp",
+      "name": "Shamegrin LP \u2014 Vinyl",
+      "category": "music",
+      "type": "vinyl",
+      "price": 36,
+      "compare_at": null,
+      "badge": "Catalog",
+      "desc": "Full album pressing. Gatefold-style jacket. Limited first run.",
+      "sizes": [
+        "12\""
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "vinyl-red",
+      "featured": true
+    },
+    {
+      "id": "digital-outrun",
+      "name": "Outrun the Crash \u2014 Digital",
+      "category": "music",
+      "type": "digital",
+      "price": 2,
+      "compare_at": null,
+      "badge": "Instant",
+      "desc": "Flagship single. Instant download + stream everywhere.",
+      "sizes": [
+        "Digital"
+      ],
+      "colors": [],
+      "visual": "digital",
+      "featured": false,
+      "buy_url": "https://distrokid.com/hyperfollow/garymakinson/home-is-ashes?ref=release"
+    },
+    {
+      "id": "digital-album",
+      "name": "Shamegrin Album \u2014 Digital",
+      "category": "music",
+      "type": "digital",
+      "price": 12,
+      "compare_at": null,
+      "badge": "Album",
+      "desc": "Full digital album on ElasticStage / catalog release.",
+      "sizes": [
+        "Digital"
+      ],
+      "colors": [],
+      "visual": "digital-album",
+      "featured": false,
+      "buy_url": "https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album"
+    },
+    {
+      "id": "poster-3am",
+      "name": "3am Crew Poster",
+      "category": "prints",
+      "type": "poster",
+      "price": 24,
+      "compare_at": null,
+      "badge": null,
+      "desc": "18\u00d724 matte print. For the wall that sees every panic and every verse.",
+      "sizes": [
+        "18\u00d724"
+      ],
+      "colors": [],
+      "visual": "poster",
+      "featured": false
+    },
+    {
+      "id": "cap-sg",
+      "name": "SG Dad Cap",
+      "category": "apparel",
+      "type": "hat",
+      "price": 32,
+      "compare_at": null,
+      "badge": null,
+      "desc": "Structured black cap. Embroidered SHAMEGRIN mark.",
+      "sizes": [
+        "OSFA"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "cap",
+      "featured": false
+    },
+    {
+      "id": "bundle-3am",
+      "name": "3am Bundle",
+      "category": "bundles",
+      "type": "bundle",
+      "price": 89,
+      "compare_at": 110,
+      "badge": "Save $21",
+      "desc": "No Face Tee + Outrun Vinyl + digital single. The full cut.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "visual": "bundle",
+      "featured": true
+    }
+  ]
+}

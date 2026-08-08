@@ -1,0 +1,46 @@
+{
+  "listen": [
+    {
+      "number": "A1",
+      "name": "Outrun the Crash",
+      "side": "Stream everywhere",
+      "meta": "Flagship release",
+      "url": "https://distrokid.com/hyperfollow/garymakinson/home-is-ashes?ref=release"
+    },
+    {
+      "number": "A2",
+      "name": "The Best of SHAMEGRIN",
+      "side": "SoundCloud",
+      "meta": "Official playlist",
+      "url": "https://soundcloud.com/shamegrin/sets/the-best-of-shamegrin"
+    },
+    {
+      "number": "A3",
+      "name": "Outrun Ghosts",
+      "side": "SoundCloud",
+      "meta": "Featured track",
+      "url": "https://soundcloud.com/shamegrin/outrun-ghosts"
+    },
+    {
+      "number": "B1",
+      "name": "I Lied",
+      "side": "SoundCloud",
+      "meta": "Featured track",
+      "url": "https://soundcloud.com/shamegrin/i-lied-shamegrin"
+    },
+    {
+      "number": "B2",
+      "name": "Still Here Breathing",
+      "side": "SoundCloud",
+      "meta": "Featured track",
+      "url": "https://soundcloud.com/shamegrin/still-here-breathing"
+    },
+    {
+      "number": "B3",
+      "name": "Shamegrin Album",
+      "side": "ElasticStage",
+      "meta": "Full digital album",
+      "url": "https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album"
+    }
+  ]
+}

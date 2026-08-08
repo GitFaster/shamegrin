@@ -1,0 +1,60 @@
+{
+  "platforms": [
+    {
+      "id": "soundcloud",
+      "label": "01",
+      "name": "SoundCloud",
+      "desc": "SHAMEGRIN \u00b7 full catalog",
+      "url": "https://soundcloud.com/shamegrin"
+    },
+    {
+      "id": "youtube",
+      "label": "02",
+      "name": "YouTube",
+      "desc": "@GarySoundCloud \u00b7 4K MVs",
+      "url": "https://www.youtube.com/@GarySoundCloud?sub_confirmation=1"
+    },
+    {
+      "id": "stream",
+      "label": "03",
+      "name": "Spotify & Apple",
+      "desc": "Stream Outrun the Crash",
+      "url": "https://distrokid.com/hyperfollow/garymakinson/home-is-ashes?ref=release"
+    },
+    {
+      "id": "tiktok",
+      "label": "04",
+      "name": "TikTok",
+      "desc": "@shamegrin \u00b7 15s clips",
+      "url": "https://www.tiktok.com/@shamegrin"
+    },
+    {
+      "id": "instagram",
+      "label": "05",
+      "name": "Instagram",
+      "desc": "@shamegrin",
+      "url": "https://instagram.com/shamegrin"
+    },
+    {
+      "id": "snapchat",
+      "label": "06",
+      "name": "Snapchat",
+      "desc": "@shamegrin",
+      "url": "https://www.snapchat.com/add/shamegrin"
+    },
+    {
+      "id": "elasticstage",
+      "label": "07",
+      "name": "ElasticStage",
+      "desc": "Shamegrin digital album",
+      "url": "https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album"
+    },
+    {
+      "id": "press",
+      "label": "08",
+      "name": "Press",
+      "desc": "shamegrin@icloud.com",
+      "url": "mailto:shamegrin@icloud.com"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SHAMEGRIN",
+  "short_name": "SHAMEGRIN",
+  "description": "The Stutter Boys and the ShameGrin — dark emo rap. No face. Just sound.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
+  "lang": "en-CA"
+}
