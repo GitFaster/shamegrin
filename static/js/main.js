@@ -8,9 +8,11 @@
   const onScroll = () => {
     const y = window.scrollY || 0;
     if (nav) nav.classList.toggle("is-scrolled", y > 12);
+    const top = document.querySelector(".site-top");
+    if (top) top.classList.toggle("is-scrolled", y > 12);
     if (playerBar) playerBar.classList.toggle("is-visible", y > window.innerHeight * 0.55);
 
-    const sectionIds = ["music", "catalog", "listen", "bio", "faq", "share", "connect"];
+    const sectionIds = ["buy", "music", "catalog", "videos", "soundcloud", "listen", "bio", "faq", "share", "connect"];
     let current = "";
     for (const id of sectionIds) {
       const el = document.getElementById(id);
@@ -36,8 +38,16 @@
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
       toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     };
-    toggle.addEventListener("click", () => setOpen(!menu.classList.contains("is-open")));
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen(!menu.classList.contains("is-open"));
+      if (menu.classList.contains("is-open")) menu.scrollTop = 0;
+    });
     menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 860 && menu.classList.contains("is-open")) setOpen(false);
+    });
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && menu.classList.contains("is-open")) setOpen(false);
     });

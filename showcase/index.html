@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShameGrin — Gary Makinson · Music, Apps & Web</title>
+<meta name="description" content="ShameGrin is Gary Makinson, an independent artist and developer from Oliver, Canada. Music, vinyl, iPhone apps, Mac tools and websites.">
+<meta property="og:title" content="ShameGrin — Gary Makinson"><meta property="og:description" content="No face. Just sound. Music, vinyl, apps and web by Gary Makinson.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://shamegrin.com/showcase/"><meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0a0a0c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0c'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='34' text-anchor='middle' fill='%23ff3b5c'%3ESG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0c;--card:#131318;--line:#23232b;--txt:#ececf1;--mut:#9a9aa8;--acc:#ff3b5c;--acc2:#ff8a3d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;backdrop-filter:blur(14px);background:rgba(10,10,12,.72);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:62px}
+.logo{font:700 18px 'Space Grotesk';letter-spacing:3px}.logo span{color:var(--acc)}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--mut)}nav ul a:hover{color:var(--txt)}
+.hero{position:relative;padding:130px 0 110px;overflow:hidden;text-align:center}
+.hero:before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle at 50% 40%,rgba(255,59,92,.22),transparent 45%),radial-gradient(circle at 70% 70%,rgba(255,138,61,.12),transparent 40%);animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(4%,-3%) scale(1.08)}}
+.hero>*{position:relative}.eyebrow{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--mut)}
+h1{font:700 clamp(54px,11vw,128px)/1 'Space Grotesk';letter-spacing:.06em;margin:18px 0;background:linear-gradient(180deg,#fff,#b9b9c6);-webkit-background-clip:text;color:transparent}
+.tag{font:500 clamp(20px,3vw,28px) 'Space Grotesk';color:var(--acc)}
+.who{color:var(--mut);margin-top:10px}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:36px}
+.btn{padding:13px 24px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid var(--line);transition:.25s}
+.btn.p{background:linear-gradient(90deg,var(--acc),var(--acc2));border:0;color:#fff}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(255,59,92,.25)}
+section{padding:90px 0;border-top:1px solid var(--line)}
+h2{font:700 clamp(30px,4vw,44px) 'Space Grotesk';margin:0 0 12px}.lead{color:var(--mut);max-width:680px;margin:0 0 40px;font-size:17px}
+.k{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--acc);font-weight:600}
+.grid{display:grid;gap:18px}.g3{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;transition:.3s}
+.card:hover{border-color:#3a3a46;transform:translateY(-4px)}
+.stat b{display:block;font:700 34px 'Space Grotesk';background:linear-gradient(90deg,#fff,#ffb3c0);-webkit-background-clip:text;color:transparent}
+.stat span{color:var(--mut);font-size:14px}
+.card h3{font:600 20px 'Space Grotesk';margin:6px 0}.card p{color:var(--mut);margin:0;font-size:15px}
+.pill{display:inline-block;font-size:12px;padding:4px 10px;border-radius:999px;background:rgba(255,59,92,.12);color:#ff8095;font-weight:600}
+.pill.g{background:rgba(255,255,255,.06);color:var(--mut)}
+.player{border-radius:18px;overflow:hidden;border:1px solid var(--line);margin-top:28px}
+.quote{font:500 clamp(20px,2.6vw,26px)/1.5 'Space Grotesk';max-width:820px}
+footer{border-top:1px solid var(--line);padding:50px 0;color:var(--mut);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px}footer a:hover{color:var(--txt)}
+.links{display:flex;gap:20px;flex-wrap:wrap}
+.r{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}.r.in{opacity:1;transform:none}
+@media(max-width:720px){nav ul{display:none}.hero{padding:90px 0 80px}section{padding:64px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.r{opacity:1;transform:none}}
+</style></head><body>
+<nav><div class="wrap"><a class="logo" href="#">SHAME<span>GRIN</span></a>
+<ul><li><a href="#music">Music</a></li><li><a href="#vinyl">Vinyl</a></li><li><a href="#apps">Apps</a></li><li><a href="#web">Web</a></li><li><a href="#contact">Links</a></li></ul></div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Independent artist &amp; developer · SoundCloud Artist Pro</div>
+<h1>SHAMEGRIN</h1><div class="tag">No face. Just sound.</div>
+<p class="who">Gary Makinson · Oliver, Canada</p>
+<div class="btns"><a class="btn p" href="https://soundcloud.com/shamegrin" target="_blank" rel="noopener">Listen on SoundCloud</a><a class="btn" href="https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album" target="_blank" rel="noopener">Get the vinyl</a></div>
+</div></header>
+
+<section><div class="wrap r">
+<div class="k">About</div><h2>I make things. That's how I get through.</h2>
+<p class="quote">Music is the only way I can really get my feelings out. A lot of my songs are about wanting to get out of this town, and people connect with them. I also build websites and my own apps. This is everything I've made, in one place.</p>
+</div></section>
+
+<section id="music"><div class="wrap">
+<div class="r"><div class="k">Music</div><h2>The numbers so far</h2>
+<p class="lead">All-time SoundCloud stats, October 2026. Songs include <b>Bloodbath</b>, and many tracks about getting out and starting over. I'm starting to earn from my music.</p></div>
+<div class="grid g3 r">
+<div class="card stat"><b>282,505</b><span>Plays</span></div>
+<div class="card stat"><b>2,333</b><span>Likes</span></div>
+<div class="card stat"><b>461</b><span>Comments</span></div>
+<div class="card stat"><b>201</b><span>Reposts</span></div>
+<div class="card stat"><b>3,217</b><span>Minutes uploaded</span></div>
+<div class="card stat"><b>2</b><span>Downloads</span></div>
+</div>
+<div class="player r"><iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" title="ShameGrin on SoundCloud" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/shamegrin&color=%23ff3b5c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
+</div></section>
+
+<section id="vinyl"><div class="wrap">
+<div class="r"><div class="k">Vinyl</div><h2>On record</h2><p class="lead">My own vinyl, pressed through SoundCloud and Elastic Stage.</p></div>
+<div class="grid g2 r">
+<div class="card"><span class="pill">Live</span><h3>ShameGrin</h3><p>Released July 8, 2026</p></div>
+<div class="card"><span class="pill">Live</span><h3>The ShameGrin Collection</h3><p>Released July 31, 2026</p></div>
+<div class="card"><span class="pill g">In the works</span><h3>Two more records</h3><p>Coming soon.</p></div>
+</div>
+<div class="btns r" style="justify-content:flex-start"><a class="btn p" href="https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album" target="_blank" rel="noopener">Buy on Elastic Stage</a></div>
+</div></section>
+
+<section id="apps"><div class="wrap">
+<div class="r"><div class="k">Apps</div><h2>Built by me</h2><p class="lead">iPhone apps and Mac tools I designed and built myself. Not on the App Store yet.</p></div>
+<div class="grid g3 r">
+<div class="card"><span class="pill">iPhone</span><h3>DriveRadar</h3><p>Driving and walking radar, with dog parks and shady spots.</p></div>
+<div class="card"><span class="pill">iPhone</span><h3>Bluetooth Finder</h3><p>Track down lost Bluetooth devices.</p></div>
+<div class="card"><span class="pill">iPhone</span><h3>The Last Hope</h3><p>A game.</p></div>
+<div class="card"><span class="pill">iPhone</span><h3>Cursive Practice</h3><p>Signature App: practice cursive and your signature.</p></div>
+<div class="card"><span class="pill">iPhone</span><h3>PixelDreamer</h3><p>iPhone app.</p></div>
+<div class="card"><span class="pill g">Mac</span><h3>Control Board</h3><p>Mac tool.</p></div>
+<div class="card"><span class="pill g">Mac</span><h3>Prompt Panel</h3><p>Mac tool.</p></div>
+<div class="card"><span class="pill g">Mac</span><h3>iPhone &amp; iPad Control</h3><p>Mac tool.</p></div>
+</div></div></section>
+
+<section id="web"><div class="wrap">
+<div class="r"><div class="k">Web</div><h2>Websites</h2><p class="lead">Designed, built and hosted myself.</p></div>
+<div class="grid g2 r">
+<a class="card" href="https://shamegrin.com" target="_blank" rel="noopener"><h3>shamegrin.com ↗</h3><p>My music site.</p></a>
+<div class="card"><span class="pill g">Launching soon</span><h3>xylimo.com</h3><p>Web project in development.</p></div>
+</div></div></section>
+
+<footer id="contact"><div class="wrap">
+<div><div class="logo">SHAME<span>GRIN</span></div><p>© 2026 Gary Makinson · Oliver, Canada</p></div>
+<div class="links"><a href="https://soundcloud.com/shamegrin" target="_blank" rel="noopener">SoundCloud</a><a target="_blank" rel="noopener" href="https://elasticstage.com/soundcloud/releases/gary-makinson-shamegrin-album">Elastic Stage</a><a href="https://shamegrin.com">shamegrin.com</a></div>
+</div></footer>
+<script>
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+</script>
+</body></html>

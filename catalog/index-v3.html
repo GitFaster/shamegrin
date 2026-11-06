@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#060608">
+<title>Catalog · SHAMEGRIN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/main.css?v=20261007pro">
+<style>
+:root{--lime:#d8ff2e;--line:rgba(255,255,255,.085);--mute:#9a9aa6;--ease:cubic-bezier(.2,.7,.2,1)}
+body{margin:0;min-height:100vh;color:#f3f3ee;font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;background:radial-gradient(60rem 40rem at 85% -10%,rgba(216,255,46,.07),transparent 60%),#060608}
+.noise{position:fixed;inset:0;pointer-events:none;opacity:.06;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.seo-nav-page{position:sticky;top:0;z-index:10;display:flex;gap:clamp(14px,3vw,32px);align-items:center;padding:16px clamp(18px,4vw,40px);background:rgba(6,6,8,.62);backdrop-filter:blur(20px) saturate(140%);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--line);font:500 12px/1 "DM Mono",monospace;letter-spacing:.2em}
+.seo-nav-page a{color:#d6d6d0;text-decoration:none;opacity:.8;transition:opacity .25s,color .25s}
+.seo-nav-page a:hover{opacity:1;color:#fff}
+.seo-nav-page a:first-child{font:400 1.35rem/1 "Bebas Neue",sans-serif;letter-spacing:.14em;margin-right:auto;opacity:1}
+.seo-nav-page a:last-child{padding:9px 16px;border-radius:999px;background:var(--lime);color:#07070b;opacity:1;box-shadow:0 8px 30px rgba(216,255,46,.16)}
+.catalog-wrap{max-width:820px;margin:0 auto;padding:clamp(56px,9vw,110px) 20px 90px}
+.kick{font:500 11px/1 "DM Mono",monospace;letter-spacing:.24em;text-transform:uppercase;color:var(--lime);margin:0 0 14px}
+h1{font:400 clamp(4rem,12vw,7.5rem)/.85 "Bebas Neue",sans-serif;margin:0;letter-spacing:.01em;background:linear-gradient(180deg,#fff,#a3a39b);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:#b9b9c2;margin:18px 0 40px;font-size:17px}
+ol{list-style:none;counter-reset:n;margin:0;padding:0;display:grid;gap:10px}
+ol li{counter-increment:n}
+ol a{display:grid;grid-template-columns:3rem 1fr auto;align-items:center;gap:12px;padding:20px 22px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.012));color:#f3f3ee;text-decoration:none;font-weight:600;font-size:17px;transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+ol a::before{content:counter(n,decimal-leading-zero);font:500 12px/1 "DM Mono",monospace;color:var(--mute)}
+ol a::after{content:"→";color:var(--lime);opacity:.5;transition:transform .4s var(--ease),opacity .3s}
+ol a:hover{transform:translateY(-3px);border-color:rgba(216,255,46,.32);box-shadow:0 22px 50px rgba(0,0,0,.4),0 0 36px rgba(216,255,46,.07)}
+ol a:hover::after{opacity:1;transform:translateX(4px)}
+.foot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font:500 12px/1 "DM Mono",monospace;letter-spacing:.16em;color:var(--mute)}
+.foot a{color:#f3f3ee;text-decoration:none}.foot a:hover{color:var(--lime)}
+:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+@media(max-width:700px){.seo-nav-page{flex-wrap:wrap;row-gap:12px}.seo-nav-page a:first-child{flex-basis:100%}.seo-nav-page a:last-child{margin-left:auto}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div>
+<nav aria-label="Primary" class="seo-nav-page">
+<a href="../">SHAMEGRIN</a>
+<a href="./">CATALOG</a>
+<a href="../artist/">ARTIST</a>
+<a href="../press/">PRESS</a>
+<a href="../buy/">BUY</a>
+<a href="../#about">ABOUT</a>
+<a href="https://open.spotify.com/album/4JH6Lc63yJyMVh0PcC4KFM?si=xzVj02NsR8uJ9Zvh4wjJjQ" rel="noopener" target="_blank">Listen</a>
+</nav>
+<div class="catalog-wrap">
+<p class="kick">SHAMEGRIN · Gary Makinson</p>
+<h1>Catalog</h1>
+<p class="lead">Every music page saved from shamegrin.com.</p>
+<ol>
+<li><a href="../music/the-stutter-boys-and-the-shamegrin/">The Stutter Boys and the ShameGrin</a></li>
+<li><a href="../music/tired-of-this-world/">Tired of This World</a></li>
+<li><a href="../music/anime-star/">Anime Star</a></li>
+<li><a href="../music/the-wolf-that-stays-caged/">The Wolf That Stays Caged</a></li>
+<li><a href="../music/oblivion-home-no-more/">Oblivion Home No More</a></li>
+<li><a href="../music/the-mountains-still-call-to-me/">The Mountains Still Call to Me</a></li>
+<li><a href="../music/fall-into-the-ground/">Fall Into the Ground</a></li>
+</ol>
+<p class="foot"><a href="../artist/">Artist</a> · <a href="../press/">Press</a></p>
+</div>
+</body>
+</html>
