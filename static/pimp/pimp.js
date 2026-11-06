@@ -1,14 +1,10 @@
-(function(){var l=document.createElement("link");l.rel="stylesheet";l.href="/static/pimp/pimp.css?v=14";document.head.appendChild(l)})();
+(function(){var l=document.createElement("link");l.rel="stylesheet";l.href="/static/pimp/pimp.css?v=15";document.head.appendChild(l)})();
 (function(){
 var RM=matchMedia('(prefers-reduced-motion: reduce)').matches,MOB=matchMedia('(max-width:700px)').matches;
 function el(t,a,h){var e=document.createElement(t);for(var k in a)e.setAttribute(k,a[k]);if(h)e.innerHTML=h;return e}
 // intro
 if(!RM&&!sessionStorage.getItem('pxIntro')){var it=el('div',{id:'px-intro'},'<div class="px-logo">SHAMEGRIN</div><div class="px-bar"><i></i></div>');document.body.appendChild(it);sessionStorage.setItem('pxIntro','1');setTimeout(function(){it.classList.add('px-done');setTimeout(function(){it.remove()},700)},1250)}
 document.body.appendChild(el('div',{id:'px-scan'}));
-// social bar
-var s=el('nav',{id:'px-social','aria-label':'Social links'});
-[['https://www.tiktok.com/@shamegrin','TT','TikTok'],['https://soundcloud.com/shamegrin','SC','SoundCloud'],['https://www.youtube.com/@SHAMEGRIN','YT','YouTube']].forEach(function(x){s.appendChild(el('a',{href:x[0],target:'_blank',rel:'noopener','aria-label':x[2],title:x[2]},x[1]))});
-document.body.appendChild(s);
 // glitch headings
 document.querySelectorAll('h2.sg-neon-h, section.section > h2, section.section .container > h2').forEach(function(h){if(h.querySelector('*:not(br):not(span)'))return;h.setAttribute('data-text',h.textContent.trim());h.classList.add('px-glitch')});
 // EQ in hero + parallax
@@ -29,9 +25,6 @@ gal.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)
 lb.addEventListener('click',function(){lb.classList.remove('px-open')});addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('px-open')});
 // tilt
 if(!RM&&!MOB)document.querySelectorAll('.px-tilt').forEach(function(t){t.addEventListener('mousemove',function(e){var r=t.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;t.style.transform='perspective(800px) rotateY('+(x*18)+'deg) rotateX('+(-y*18)+'deg) scale(1.03)'});t.addEventListener('mouseleave',function(){t.style.transform=''})});
-// spinning vinyl player
-var v=el('div',{id:'px-vinyl'},'<div class="px-player"></div><div style="position:relative"><span class="px-label">▶ The single</span><button class="px-disc" type="button" aria-label="Play The Stutter Boys and the ShameGrin"></button></div>');document.body.appendChild(v);
-v.querySelector('.px-disc').addEventListener('click',function(){var p=v.querySelector('.px-player');if(v.classList.toggle('px-on')){p.innerHTML='<iframe title="The Stutter Boys and the ShameGrin" style="border-radius:12px" src="https://open.spotify.com/embed/track/2oBPAv1iYkRicSpOuAH6w2?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';v.querySelector('.px-label').textContent='■ Stop'}else{p.innerHTML='';v.querySelector('.px-label').textContent='▶ The single'}});
 // scroll reveal
 if(!RM&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('px-in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});document.querySelectorAll('section.section').forEach(function(sec){if(sec.getBoundingClientRect().top>innerHeight){sec.classList.add('px-rv');io.observe(sec)}})}
 // cursor trail
@@ -78,4 +71,3 @@ document.addEventListener('error',function(e){var t=e.target;if(t&&t.tagName==='
 function scan(){document.querySelectorAll('img').forEach(function(i){if(/ytimg|youtube/.test(i.src)&&i.complete&&(i.naturalWidth===0||i.naturalWidth<=120))fb(i)})}
 addEventListener('load',function(){scan();setTimeout(scan,2500)});
 })();
-(function(){var v=document.getElementById("px-vinyl"),h=document.getElementById("hero");if(!v||!h)return;var t=false;function u(){v.classList.toggle("px-shown",h.getBoundingClientRect().bottom<80);t=false}addEventListener("scroll",function(){if(!t){t=true;requestAnimationFrame(u)}},{passive:true});u()})();

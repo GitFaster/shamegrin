@@ -355,6 +355,21 @@ body{background:radial-gradient(60rem 40rem at 85% -10%,rgba(216,255,46,.07),tra
 .sg-about-bio p{margin:0 0 16px;color:#cfcfd6;font-size:17px;line-height:1.7;overflow-wrap:anywhere}
 .sg-about-bio p:first-child{font:400 clamp(1.6rem,3vw,2.2rem)/1.15 "Bebas Neue",sans-serif;letter-spacing:.03em;color:#f3f3ee}
 .sg-about-bio a{color:var(--lime)}
+.sg-about{grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:clamp(28px,5vw,72px);padding:clamp(28px,4vw,56px);background:radial-gradient(34rem 26rem at 6% 45%,rgba(216,255,46,.07),transparent 65%),#0c0c0f}
+.sg-about-av{width:100%;max-width:260px;box-shadow:0 0 0 1px rgba(216,255,46,.6),0 24px 60px rgba(0,0,0,.45)}
+.sg-about-bio{max-width:660px}
+.sg-about-bio p.sg-about-eyebrow{margin:0 0 14px;color:var(--lime);font:500 11px/1.4 "DM Mono",monospace;letter-spacing:.18em;text-transform:uppercase}
+.sg-about-bio h3{margin:0 0 12px;font:400 clamp(2rem,4.2vw,3.6rem)/.98 "Bebas Neue",sans-serif;letter-spacing:.025em;color:#f3f3ee;overflow-wrap:normal}
+.sg-about-bio h3 span{color:var(--lime)}
+.sg-about-bio .sg-about-lead{margin:0 0 20px;color:#fff;font-size:clamp(1.1rem,2vw,1.35rem);font-weight:600;line-height:1.35}
+.sg-about-bio p{max-width:58ch;margin:0 0 20px;color:#b9b9c2;font-size:clamp(15px,1.5vw,17px);line-height:1.65;overflow-wrap:normal}
+.sg-about-actions{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 20px}
+.sg-about-actions a{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:48px;padding:12px 19px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;transition:transform .2s,border-color .2s,background .2s}
+.sg-about-actions a:hover{transform:translateY(-2px)}
+.sg-about-actions .sg-about-primary{background:var(--lime);color:#07070b}
+.sg-about-actions .sg-about-secondary{border:1px solid rgba(216,255,46,.45);color:var(--lime)}
+.sg-about-bio .sg-about-note{margin:0;color:#898995;font:500 11px/1.5 "DM Mono",monospace;letter-spacing:.06em}
+@media(max-width:760px){.sg-about{grid-template-columns:1fr;text-align:left;padding:24px}.sg-about-av{width:min(200px,55vw);justify-self:start}.sg-about-actions a{flex:1 1 170px}}
 #about{scroll-margin-top:70px}
 @media(max-width:860px){#about{padding-inline:16px!important}}
 #playlist{scroll-margin-top:70px}@media(max-width:860px){#playlist{padding-inline:16px!important}}
@@ -1089,7 +1104,17 @@ html,body{overflow-x:clip}img,video,iframe{max-width:100%}
       </div>
       <div class="sg-about">
         <img class="sg-about-av" src="https://i1.sndcdn.com/avatars-PimISUGuqwIirZUy-1kEohQ-t500x500.jpg" width="500" height="500" alt="ShameGrin SoundCloud avatar" loading="lazy">
-        <div class="sg-about-bio"><p>SHAMEGRIN — Gary Makinson<br>Oliver, Canada. Dark emo rap. No face. Just sound.</p><p>They judged first. This is the part they don&#x27;t get to narrate.<br>Distorted beats. Honest storytelling. Pain with the name still on it.<br>1,000+ tracks. One catalog. If it hits, it was already in you.</p><p>▶ Start here: <a href="https://soundcloud.com/shamegrin/sets/top-songs-this-year" target="_blank" rel="me noopener">https://soundcloud.com/shamegrin/sets/top-songs-this-year</a><br>💿 Vinyl is in the links. Like • comment • repost if you&#x27;re still here.<br>🖤 SHAMEGRIN</p></div>
+        <div class="sg-about-bio">
+          <p class="sg-about-eyebrow">Independent artist · Oliver, Canada</p>
+          <h3>Gary Makinson <span>is SHAMEGRIN.</span></h3>
+          <p class="sg-about-lead">Dark emo rap. No face. Just sound.</p>
+          <p>Distorted beats and honest stories for the nights you keep to yourself. They judged first. The music gets the last word.</p>
+          <div class="sg-about-actions">
+            <a class="sg-about-primary" href="https://soundcloud.com/shamegrin/sets/top-songs-this-year" target="_blank" rel="me noopener">▶ Start listening <span aria-hidden="true">↗</span></a>
+            <a class="sg-about-secondary" href="#buy">Explore the vinyl <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="sg-about-note">1,000+ tracks on SoundCloud · Made in Canada</p>
+        </div>
       </div>
     </section>
 
@@ -1460,7 +1485,7 @@ if('IntersectionObserver'in window){var io=new IntersectionObserver(function(es)
 document.querySelectorAll('.catalog-grid,.platforms,.pillars').forEach(function(gr){Array.prototype.forEach.call(gr.children,function(c,i){c.style.transitionDelay=rm?'0s':Math.min(i%8,7)*60+'ms'})});}
 })();
 </script>
-<script src="/static/pimp/pimp.js?v=14" defer></script>
+<script src="/static/pimp/pimp.js?v=15" defer></script>
 
 <script id="sg-better-js-20261105">
 (function(){

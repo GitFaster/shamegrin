@@ -56,7 +56,7 @@ section.section+section.section{border-top:1px solid transparent;border-image:li
 @media (max-width:700px){#px-top{bottom:90px;right:14px}}
 @media (prefers-reduced-motion:reduce){.px-btn{animation:none}#px-glow{display:none}}
 
-#px-vinyl{bottom:96px}#px-top{bottom:190px}@media (max-width:700px){#px-vinyl{bottom:84px}#px-top{bottom:160px}}
+#px-top{bottom:104px}@media (max-width:700px){#px-top{bottom:84px}}
 #px-feat .px-fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;max-width:1100px;margin:0 auto}
 .px-card{position:relative;display:block;border-radius:12px;overflow:hidden;border:1px solid rgba(182,255,0,.3);background:#050505;text-decoration:none;color:#fff;transition:transform .3s,box-shadow .3s,border-color .3s}
 .px-card img{width:100%;aspect-ratio:1;object-fit:cover;display:block;transition:transform .5s,filter .5s;filter:grayscale(.35)}
@@ -94,3 +94,7 @@ html.px-hidden *,html.px-hidden *::before,html.px-hidden *::after{animation-play
 @media (max-width:700px){.hero-title{font-size:clamp(1.8rem,8.6vw,3rem)!important;letter-spacing:-.04em;overflow-wrap:normal;word-break:keep-all}
 #px-vinyl{left:12px;right:auto;bottom:118px}#px-vinyl button.px-disc{width:50px;height:50px}#px-vinyl .px-label{display:none}#px-vinyl.px-on .px-player{position:absolute;left:0;bottom:60px}}
 @media (max-width:700px){#px-vinyl{opacity:0;visibility:hidden;transition:opacity .3s}#px-vinyl.px-shown,#px-vinyl.px-on{opacity:1;visibility:visible}}
+
+/* One clear listening action stays in the page player; keep the return control away from content. */
+#px-top{right:20px;bottom:104px;z-index:79}
+@media(max-width:700px){#px-top{right:14px;bottom:84px}}
